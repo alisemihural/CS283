@@ -1,3 +1,26 @@
+/*
+ * stringfun.c
+ * 
+ * This program performs various string manipulations based on the command-line arguments provided.
+ * It supports the following functionalities:
+ * - Print usage information
+ * - Count words in a string
+ * - Reverse a string
+ * - Print words and their lengths
+ * - Search and replace words in a string
+ * 
+ * Usage: ./stringfun [-h|c|r|w|x] "string" [other args]
+ * 
+ * Options:
+ * -h: Print usage information
+ * -c: Count words in the provided string
+ * -r: Reverse the provided string
+ * -w: Print words and their lengths in the provided string
+ * -x: Search and replace words in the provided string
+ * 
+ * Author: Ali Ural
+ * Date: 01/19/2025
+ */
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
