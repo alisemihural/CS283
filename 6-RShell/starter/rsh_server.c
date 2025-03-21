@@ -209,7 +209,7 @@ int boot_server(char *ifaces, int port) {
  * 
  */
 int process_cli_requests(int svr_socket, int is_threaded) {
-    int cli_socket;
+    int cli_socket = 0;
     int rc = OK;
 
     while (1) {
